@@ -71,7 +71,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/YOUR_USERNAME/YOUR_REPO")
+                url = uri("https://maven.pkg.github.com/apppanel/DurableLinks-Android")
                 credentials {
                     username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_USERNAME")
                     password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
