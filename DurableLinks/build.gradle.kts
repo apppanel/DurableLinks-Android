@@ -62,8 +62,8 @@ afterEvaluate {
 
                 pom {
                     name.set("DurableLinks SDK")
-                    description.set("SDK for handling durable and deep links")
-                    url.set("https://github.com/YOUR_USERNAME/YOUR_REPO")
+                    description.set("SDK for handling Durable Links")
+                    url.set("https://github.com/apppanel/DurableLinks-Android")
                 }
             }
         }
@@ -81,13 +81,6 @@ afterEvaluate {
     }
 }
 
-
-// Custom task to retrieve Git version tag
 fun getGitVersion(): String {
-    val process = ProcessBuilder("git", "describe", "--tags")
-        .directory(project.rootDir)
-        .start()
-    process.waitFor()
-    val version = process.inputStream.bufferedReader().readText().trim()
-    return version
+    return "1.0.0"
 }

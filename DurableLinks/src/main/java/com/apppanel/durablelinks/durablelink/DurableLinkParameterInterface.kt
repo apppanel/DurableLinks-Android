@@ -1,4 +1,4 @@
-package com.apppanel.durablelinks.model.durable_link_component.parameters
+package com.apppanel.durablelinks.durablelink
 
 internal interface DurableLinkParameter {
     fun toMap(): Map<String, String>

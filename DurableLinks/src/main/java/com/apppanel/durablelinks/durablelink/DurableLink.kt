@@ -1,4 +1,4 @@
-package com.apppanel.durablelinks.model
+package com.apppanel.durablelinks.durablelink
 
 import android.net.Uri
 import androidx.core.net.toUri
